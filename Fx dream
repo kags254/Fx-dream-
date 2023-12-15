@@ -15,7 +15,7 @@ function connectWebSocket() {
         return;
     }
 
-    socket = new WebSocket('wss://example.com'); // Replace with your WebSocket endpoint
+    socket = new WebSocket('wss://Deriv.com'); // Replace with your WebSocket endpoint
 
     socket.onopen = function (event) {
         document.getElementById('wsStatus').innerText = 'Connected';
